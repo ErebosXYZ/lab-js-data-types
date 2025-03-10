@@ -65,7 +65,7 @@ console.log("Iteration 2.1:", "The tip amount is", tipAmount);
 
 randomNumber = Math.floor(Math.random() * 11);
 
-// el mètode Math.random genera un número aleatori de l'1 al 10 i el mètode Math.floor fa que sigui un número enter
+// el mètode Math.random genera un número aleatori de l'1 al 10 i el mètode Math.floor fa que sigui un número enter. La variable Math permet fer operacions matemàtiques.
 
 // Print the generated random number
 
