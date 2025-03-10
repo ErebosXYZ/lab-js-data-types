@@ -29,7 +29,7 @@ const part2 = "script";
 // Convert the last letter of part1 and part2 to uppercase and concatenate the strings
 
 // .slice per retallar des del primer fins al penúltim caràcter de cada string (0 es el primer i -1 l'últim). A això li sumem el .slice dels últims caràcters de cada string i el convertim a majúscules amb .toUpperCase. Concatenem els dos strings amb un +.
-// solució Oscar: en comptes d'utilitzar slice fem servir substring, que fa el mateix i utilitzem la propietat .length de l'array part1 que compta les lletres des del final i també la propietat .toUpperCase per a posar aquesta lletra en majúscules
+// solució Oscar: en comptes d'utilitzar slice fem servir substring, que fa el mateix però slice accepta índexs negatius i utilitzem la propietat .length de l'array part1 que compta les lletres des del final i també la propietat .toUpperCase per a posar aquesta lletra en majúscules
 
 // let cameLtaiL = part1.slice(0, -1) + part1.slice(-1).toUpperCase() + part2.slice(0, -1) + part2.slice(-1).toUpperCase();
 let cameLtaiL = part1.substring(0, 3) + part1[part1.length-1].toUpperCase() + part2.substring(0, 5) + part2[part2.length-1].toUpperCase();
